@@ -1,3 +1,1 @@
-# angular-miukn9
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-miukn9)
+This is just for learning perpose demo please dont not use this for commercial perpose.
