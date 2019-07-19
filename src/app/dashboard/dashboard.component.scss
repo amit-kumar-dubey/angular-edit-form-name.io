@@ -1,0 +1,66 @@
+.headtitle{
+  margin: 20px;
+  text-align: center;
+}
+.headtitle h1{
+    margin: 0 20px;
+    padding: 0 126px;
+    letter-spacing: 6px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 34px;
+    max-width: 100%;
+    cursor: pointer;
+
+}
+.headtitle h1:after {
+  content: " ";
+  width: 128px;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  background: #FFF;
+  position: absolute;
+}
+.headtitle h1:before {
+  content: " ";
+  width: 128px;
+  height: 1px;
+  top: 50%;
+  right: 0;
+  background: #FFF;
+  position: absolute;
+}
+.headtitle h1 span {
+  max-width: 100%;
+  display: inline-block;
+  padding: 0 16px 0 22px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+.headtitle h1 span:after {
+    content: " ";
+    width: 2px;
+    height: 22px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -11px;
+}
+.headtitle h1 span:before {
+  content: " ";
+  width: 2px;
+  height: 22px;
+  background: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -11px;
+}
+// background-image: url('../../img/branches.svg'), linear-gradient(65deg,#17a77b,#74c947);
+// background-image: url('../../img/branches.svg');

@@ -1,0 +1,26 @@
+<div class="mlist">
+  <span>Manage List: </span>
+</div>
+<div class="alert alert-danger" *ngIf="showDeletedMessage">
+    Deleted successfully.
+  </div>
+<table class="table table-striped">
+    <thead class="thead-light">
+      <th>Name</th>
+      <th>Email</th>
+      <th>Mobile</th>
+      <th></th>
+    </thead>
+    <ng-container *ngFor="let customer of customerArray">
+      <tr>
+        <td>{{customer.name}}</td>
+        <td>{{customer.email}}</td>
+        <td>{{customer.phonenumber}}</td>
+        <td>
+            <button class="btn edit btn-outline-info pull-left" (click)="editForm(customer)">Edit</button>
+
+            <button class="btn delete btn-outline-danger pull-right" (click)="onDelete(customer.$key)">Delete</button>
+        </td>
+      </tr>
+    </ng-container>
+  </table>

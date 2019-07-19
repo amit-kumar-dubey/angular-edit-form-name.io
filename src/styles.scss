@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.back{
+  background-image: url('/assets/img/back.svg'), linear-gradient(65deg,#bab9ef, #435098);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left;
+  
+}
+.top-leaf {
+  position: absolute;
+  bottom: -163px;
+  right: -150px;
+  z-index: -999;
+}
+.position{
+  position: relative;
+  z-index: 999;
+}
+.mlist{
+  background-image: linear-gradient(65deg, #969696, #e9ecef);
+}
+.mlist span{
+  display: block;
+  padding: 5px;
+  font-weight: 700;
+  color: azure;
+}
+
