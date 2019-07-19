@@ -18,10 +18,10 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/firebaseCrude",
-            "index": "../../index.html",
-            "main": "../../main.ts",
-            "polyfills": "../../polyfills.ts",
-            "tsConfig": "../../tsconfig.app.json",
+            "index": "../../src/index.html",
+            "main": "../../src/main.ts",
+            "polyfills": "../../src/polyfills.ts",
+            "tsConfig": "../../src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -39,8 +39,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
+                  "replace": "../../src/environments/environment.ts",
+                  "with": "../../src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -82,10 +82,10 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.spec.json",
-            "karmaConfig": "src/karma.conf.js",
+            "main": "../../src/test.ts",
+            "polyfills": "../../src/polyfills.ts",
+            "tsConfig": "../../src/tsconfig.spec.json",
+            "karmaConfig": "../../src/karma.conf.js",
             "styles": [
               "src/styles.scss"
             ],
