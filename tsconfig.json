@@ -2,6 +2,13 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@customer/*": ["src/app/customer/*"],
+      "@customerlist/*": ["src/app/customer/*"],
+      "@dashboard/*": ["src/app/customer/*"],
+      "@pagenotfound/*": ["src/app/customer/*"],
+      "@shared/*": ["src/app/customer/*"] 
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
