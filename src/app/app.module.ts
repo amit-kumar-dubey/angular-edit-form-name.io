@@ -11,7 +11,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { CustomerComponent } from './customer/customer.component';
 import { CustomerlistComponent } from './customerlist/customerlist.component';
 import {CustomersService} from './shared/customers.service';
-import { environment } from 'src/environments/environment';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
