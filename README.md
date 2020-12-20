@@ -1,4 +1,6 @@
 ############################# CRUDE OPERATION USING ANGULAR 7 #######################
+UPdated on 1 DEC
+
 # FirebaseCrude
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
@@ -27,9 +29,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-
-
-Important Links: // "node_modules/bootstrap/scss/bootstrap.scss" 
+Important Links: // "node_modules/bootstrap/scss/bootstrap.scss"
 
 ##############################################################################
 This is just for learning perpose demo please dont not use this for commercial perpose.
@@ -38,7 +38,6 @@ This is just for learning perpose demo please dont not use this for commercial p
 #############################
 Idea about the pakage manager:
 #############################
-
 
 npm & bower are package managers. They just download the dependencies and don't know how to build projects on their own. What they know is to call webpack/gulp/grunt after fetching all the dependencies.
 bower is like npm, but builds flattened dependencies trees (unlike npm which do it recursively). Meaning npm fetches the dependencies for each dependency (may fetch the same a few times), while bower expects you to manually include sub-dependencies. Sometimes bower and npm are used together for front-end and back-end respectively (since each megabyte might matter on front-end).
